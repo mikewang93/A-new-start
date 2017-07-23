@@ -11,3 +11,4 @@ while 1:
     print endTime
     totalTime = endTime - startTime
     print 'The total Time is',totalTime
+    break
