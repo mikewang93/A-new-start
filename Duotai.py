@@ -16,7 +16,7 @@ a = Animal()
 b = Dog()
 c = Cat()
 
-print "a is Animal?",isinctance(a,Animal)
+print "a is Animal?",isinstance(a,Animal)
 print "b is Dog?",isinstance(b,Dog)
 print "c is Cat?",isinstance(c,Cat)
 
