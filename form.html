@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if message %}
+    <p>{{message}}</p>
+    {% endif %}
+    <form action="\signin" method="post">
+        <legend>Please sign in</legend>
+        <p><input placeholder="username" name="username" value="{{ username }}"></p>
+        <p><input placeholder="password" name="password" type="password"></p>
+        <p><button type="submit">Sign in</button></p>
+
+    </form>
+</body>
+</html>
